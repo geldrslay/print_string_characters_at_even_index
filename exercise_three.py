@@ -15,8 +15,9 @@ print ("Only printing the characters in even index of the string...")
 # To start with the first character of the string, start = 0
 # To stop at the last character of the string, stop = length of the string
 # To get the characters at the even index, step = 2
+
 for i in range (0, len(string_input), 2):
     # Print the characters at even index
-    print ([i])
-    
+    print (string_input[i])
+
 
